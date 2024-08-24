@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3</title>
+
+    <!-- tailwindcss CDN  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+
+
+
+<!-- Custome font  -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+
+</head>
+
+
+<style>
+     .main-font{
+        font-family: 'Manrope', sans-serif;
+    } 
+
+    
+   
+</style>
+
+
+
+    
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            maincolor: '#ABEF5F',
+            textcolor: '#737373',
+            sectioncolor: '#737373',
+            heading: '#212121',
+            
+
+          }
+          
+          
+          
+        }
+      }
+    }
+  </script>
+
+
+
+<body class=" main-font">
+
+
+
+
+
+   
+
+    <!-- header section start  -->
+ 
+
+
+    <header class="bg-gradient-to-t from-[#FFFFFF] to-[#F7F7F7] mb-36">
+
+       
+         <section class="container mx-auto flex flex-row items-center justify-around py-8  max-lg:hidden">
+
+
+            <div class="flex flex-row gap-2">
+                <img src="./images/arrow.png" alt="" class="">
+
+                <h2 class="text-3xl font-bold text-heading">Rinterio</h2>
+
+
+            </div>
+
+            <div>
+                <ul class="flex gap-9 text-textcolor font-bold">
+                    <li><a class="text-heading">Home</a></li>
+                    <li><a>Services</a></li>
+                    <li><a>Portfolio</a></li>
+                    <li><a>Blogs</a></li>
+                    <li><a>Contact Us</a></li>
+                    
+                  </ul>
+            </div>
+
+
+            <div class="flex flex-row items-center gap-4 ">
+
+                <div class="flex flex-row gap-4">
+                    <img src="./images/search.png" alt="search icon">
+                    <img src="./images/cart.png" alt="cart icon">
+                </div>
+
+                <div class="">
+                    <button class="flex flex-row gap-2 items-center bg-maincolor py-3 px-5 font-bold text-xl rounded-full">Book Consult <img src="./images/arrow-up-right-01.png" alt=""></button>
+                    
+
+                </div>
+
+
+
+            </div>
+
+
+
+
+
+            
+
+
+
+         </section>
+
+
+
+         
+            <!-- menu for mobile devices -->
+
+            <div class="min-[1000px]:hidden container flex flex-row items-center justify-between mx-auto py-5">
+                <div class="flex flex-row gap-2">
+                    <img src="./images/arrow.png" alt="" class="">
+    
+                    <h2 class="text-3xl font-bold text-heading">Rinterio</h2>
+    
+    
+                </div>
+
+
+                <div class="flex-none">
+                    <button class="btn btn-square btn-ghost">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        class="inline-block h-5 w-5 stroke-current">
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M4 6h16M4 12h16M4 18h16"></path>
+                      </svg>
+                    </button>
+                  </div>
+            </div>
+
+
+
+
+            <!-- hero section start  -->
+
+
+            <div class="container mx-auto ">
+
+                <div ><img src="./images/banner.png" alt="" class="mx-auto"></div>
+                <div class="text-center space-y-6">
+                    <h1 class="text-6xl font-black px-20 leading-[80px] text-heading font-">A barn house of this design has a striking appearance</h1>
+                    <p class="text-heading px-44">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+                    <div >
+                        <button class="flex flex-row gap-2 items-center bg-[#acef5f73] py-3 px-5 font-bold text-xl rounded-full mx-auto">Book Consult <img src="./images/arrow-up-right-01.png" alt=""></button>
+                        
+    
+                    </div>
+    
+                </div>
+
+
+            </div>
+
+
+        
+
+
+    </header>
+
+
+    <!-- header section end -->
+
+
+
+
+
+
+    <main>
+
+
+
+    </main>
+
+    <footer></footer>
+
+
+    
+    
+</body>
+</html>
